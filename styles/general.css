@@ -1,0 +1,86 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 25px;
+    background-color: rgb(250, 250, 250);
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+
+}
+
+.video-stats {
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+
+.video-author {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.profile-picture {
+    border-radius: 18px;
+    width: 100%;
+}
+
+.div-prof-pic{
+    display: inline-block;
+    vertical-align: top;
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.div-vid-info {
+    display: inline-block;
+    width: 250px;
+}
+
+.div-thumbnail {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.video-time {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+
+    
+}
+
