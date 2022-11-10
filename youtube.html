@@ -8,13 +8,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
-    <!--  DIVs ARE NATURALLY BLOCKS  -->
     <body>
-        <div class="header">
+        
+        <header class="header">
             <div class="left-section">
                 <img class="hamburger-menu" src="icons/hamburger-menu.svg">
                 <img class="youtube-logo" src="icons/youtube-logo.svg">
-
             </div>
             <div class="middle-section">
                 <input class="search-bar" type="text" placeholder="Search">
@@ -38,7 +37,7 @@
                 </div>
                 <div class="notifications-icon-container">
                     <img class="notifications-icon" src="icons/notifications.svg">
-                    <div class="notifications-counter">3</div>
+                    <div class="notifications-counter">5</div>
                     <div class="tooltip">Notifications</div>
                 </div>
                 <div class="current-user-picture-container">
@@ -46,9 +45,9 @@
                     <div class="tooltip">My Profile</div>
                 </div>
             </div>
-        
-        </div>
-        <div class="sidebar">
+        </header>
+
+        <nav class="sidebar">
             <div class="sidebar-link"> 
                 <img src="sidebar-icons/home.svg">
                 <div>Home</div>
@@ -73,156 +72,150 @@
                 <img src="sidebar-icons/library.svg">
                 <div>Library</div> 
             </div>
-        </div>
-        <!--  <input type="checkbox"> -->
-        <div class="video-info-grid">
-            <div class="div-main">
-                <div class="div-thumbnail">
-                    <img class="thumbnail" src="channel-thumbnail/thumbnail-1.webp">
-                    <div class="video-time">14:20</div>
-                </div>
-                <div class="video-info-grid">
-                    <div class="div-prof-pic">
-                        <img class="profile-picture" src="channel-pictures/mark.jpg">
-                    </div>
-                    <div class="div-vid-info">
-                        <p class="video-title">
-                            Try Not To Laugh Challenge #9
-                        </p>
-        
-                        <p class="video-author">
-                            Markiplier &#10003;
-                        </p>
-        
-                        <p class="video-stats">
-                            20M views &#183; 4 years ago
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Divs are containers that group several elements into one container
-            it is used alot because of how well it can contain everything
+        </nav>
 
-            block elements inside of div take up ENTIRE LINE in the CONTAINER,
-            NOT THE ENTIRE PAGES LIKE WHEN IT IS OUT OF A DIV
+        <main>
+            <div class="video-info-grid">
+                <div class="div-main">
+                    <div class="div-thumbnail">
+                        <img class="thumbnail" src="channel-thumbnail/thumbnail-1.webp">
+                        <div class="video-time">14:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="div-prof-pic">
+                            <img class="profile-picture" src="channel-pictures/mark.jpg">
+                        </div>
+                        <div class="div-vid-info">
+                            <p class="video-title">
+                                Try Not To Laugh Challenge #9
+                            </p>
+            
+                            <p class="video-author">
+                                Markiplier &#10003;
+                            </p>
+            
+                            <p class="video-stats">
+                                20M views &#183; 4 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-            DIVS DONT TAKE ENTIRE PAGE, SO CAN add another video preview,
-            however div by default is a block elment, have to change it
-            -->
-            <div class="div-main">
-                <div class="div-thumbnail">
-                    <img class="thumbnail" src="channel-thumbnail/avgn.webp">
-                    <div class="video-time">22:55</div>
-                </div>
-                <div class="video-info-grid">
-                    <div class="div-prof-pic">
-                        <img class="profile-picture" src="channel-pictures/bull.jpg">
+                <div class="div-main">
+                    <div class="div-thumbnail">
+                        <img class="thumbnail" src="channel-thumbnail/avgn.webp">
+                        <div class="video-time">22:55</div>
                     </div>
-                    <div class="div-vid-info">
-                        <p class="video-title">
-                            DOOM - Angry Video Game Nerd (AVGN)
-                        </p>
-                        <p class="video-author">
-                            Cinemassacre &#10003;
-                        </p>
-                        <p class="video-stats">
-                            114K views &#183; 3 hours ago
-                        </p>
+                    <div class="video-info-grid">
+                        <div class="div-prof-pic">
+                            <img class="profile-picture" src="channel-pictures/bull.jpg">
+                        </div>
+                        <div class="div-vid-info">
+                            <p class="video-title">
+                                DOOM - Angry Video Game Nerd (AVGN)
+                            </p>
+                            <p class="video-author">
+                                Cinemassacre &#10003;
+                            </p>
+                            <p class="video-stats">
+                                114K views &#183; 3 hours ago
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        
-            <div class="div-main">
-                <div class="div-thumbnail">
-                    <img class="thumbnail" src="channel-thumbnail/lair.webp">
-                    <div class="video-time">12:49</div>
-                </div>
-                <div class="video-info-grid">
-                    <div class="div-prof-pic">
-                        <img class="profile-picture" src="channel-pictures/dtw.jpg">
+            
+                <div class="div-main">
+                    <div class="div-thumbnail">
+                        <img class="thumbnail" src="channel-thumbnail/lair.webp">
+                        <div class="video-time">12:49</div>
                     </div>
-                    <div class="div-vid-info">
-                        <p class="video-title">
-                            Spider and Centipede BREEDING
-                        </p>
-                        <p class="video-author">
-                            Bugs and Biology &#10003;
-                        </p>
-                        <p class="video-stats">
-                            1.1K views &#183; 20 days ago
-                        </p>
+                    <div class="video-info-grid">
+                        <div class="div-prof-pic">
+                            <img class="profile-picture" src="channel-pictures/dtw.jpg">
+                        </div>
+                        <div class="div-vid-info">
+                            <p class="video-title">
+                                Spider and Centipede BREEDING
+                            </p>
+                            <p class="video-author">
+                                Bugs and Biology &#10003;
+                            </p>
+                            <p class="video-stats">
+                                1.1K views &#183; 20 days ago
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="div-main">
-                <div class="div-thumbnail">
-                    <img class="thumbnail" src="channel-thumbnail/batman.webp">
-                    <div class="video-time">12:17</div>
-                </div>
-                <div class="video-info-grid">
-                    <div class="div-prof-pic">
-                        <img class="profile-picture" src="channel-pictures/jerma.jpg">
+                <div class="div-main">
+                    <div class="div-thumbnail">
+                        <img class="thumbnail" src="channel-thumbnail/batman.webp">
+                        <div class="video-time">12:17</div>
                     </div>
-                    <div class="div-vid-info">
-                        <p class="video-title">
-                            Batman Becomes a Discord Mod
-                        </p>
-                        <p class="video-author">
-                            pantsahat &#10003;
-                        </p>
-                        <p class="video-stats">
-                            4.3M views &#183; 1 year ago
-                        </p>
+                    <div class="video-info-grid">
+                        <div class="div-prof-pic">
+                            <img class="profile-picture" src="channel-pictures/jerma.jpg">
+                        </div>
+                        <div class="div-vid-info">
+                            <p class="video-title">
+                                Batman Becomes a Discord Mod
+                            </p>
+                            <p class="video-author">
+                                pantsahat &#10003;
+                            </p>
+                            <p class="video-stats">
+                                4.3M views &#183; 1 year ago
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="div-main">
-                <div class="div-thumbnail">
-                    <img class="thumbnail" src="channel-thumbnail/korea.webp">
-                    <div class="video-time">3:00:00</div>
-                </div>
-                <div class="video-info-grid">
-                    <div class="div-prof-pic">
-                        <img class="profile-picture" src="channel-pictures/wort.jpg">
+                <div class="div-main">
+                    <div class="div-thumbnail">
+                        <img class="thumbnail" src="channel-thumbnail/korea.webp">
+                        <div class="video-time">3:00:00</div>
                     </div>
-                    <div class="div-vid-info">
-                        <p class="video-title">
-                            [4K Rain Walk] Rain Walking Before the Dawn. The sound of the morning rain wets my heart.
-                        </p>
-                        <p class="video-author">
-                            Hello Korea &#10003;
-                        </p>
-                        <p class="video-stats">
-                            263K views &#183; 2 months ago
-                        </p>
+                    <div class="video-info-grid">
+                        <div class="div-prof-pic">
+                            <img class="profile-picture" src="channel-pictures/wort.jpg">
+                        </div>
+                        <div class="div-vid-info">
+                            <p class="video-title">
+                                [4K Rain Walk] Rain Walking Before the Dawn. The sound of the morning rain wets my heart.
+                            </p>
+                            <p class="video-author">
+                                Hello Korea &#10003;
+                            </p>
+                            <p class="video-stats">
+                                263K views &#183; 2 months ago
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="div-main">
-                <div class="div-thumbnail">
-                    <img class="thumbnail" src="channel-thumbnail/stalkers.webp">
-                    <div class="video-time">20:10</div>
-                </div>
-                <div class="video-info-grid">
-                    <div class="div-prof-pic">
-                        <img class="profile-picture" src="channel-pictures/reaper.webp">
+                <div class="div-main">
+                    <div class="div-thumbnail">
+                        <img class="thumbnail" src="channel-thumbnail/stalkers.webp">
+                        <div class="video-time">20:10</div>
                     </div>
-                    <div class="div-vid-info">
-                        <p class="video-title">
-                            A Fate Worse Then Death |Stalkers| FULL Half-Life Lore
-                        </p>
-                        <p class="video-author">
-                            Skyrionn &#10003;
-                        </p>
-                        <p class="video-stats">
-                            86K views &#183; 3 days ago
-                        </p>
+                    <div class="video-info-grid">
+                        <div class="div-prof-pic">
+                            <img class="profile-picture" src="channel-pictures/reaper.webp">
+                        </div>
+                        <div class="div-vid-info">
+                            <p class="video-title">
+                                A Fate Worse Then Death |Stalkers| FULL Half-Life Lore
+                            </p>
+                            <p class="video-author">
+                                Skyrionn &#10003;
+                            </p>
+                            <p class="video-stats">
+                                86K views &#183; 3 days ago
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     </body>
 </html>
